@@ -1,0 +1,3 @@
+export const paragraph = document.createElement("p");
+
+paragraph.textContent = "The best restaurant in the world is a subjective concept, as different people have different tastes and preferences. However, there are a few restaurants that consistently rank among the top in the world, according to various rankings and surveys. These restaurants typically offer an exceptional dining experience, with innovative cuisine, impeccable service, and a luxurious ambiance.";
