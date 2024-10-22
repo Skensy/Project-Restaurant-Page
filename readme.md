@@ -18,7 +18,7 @@
 
 <h2>Come Eseguire il Progetto</h2>
 <ol>
-    <li><strong>Clona il repository:</strong> <code>git clone https://github.com/tuonomeutente/tuorepository.git</code></li>
+    <li><strong>Clona il repository:</strong></li>
     <li><strong>Apri il file <code>index.html</code> in un browser web.</strong></li>
 </ol>
 
