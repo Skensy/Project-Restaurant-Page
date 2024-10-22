@@ -1,5 +1,3 @@
-console.log("Hello World!");
-
 import { image } from "./image.js";
 import { heading } from "./heading.js";
 import { paragraph } from "./paragraph.js";
@@ -15,16 +13,13 @@ const btnAbout = document.querySelector("#about")
 btnHome.addEventListener("click", () => {
     if (div.contains(about)) {
         div.removeChild(about);
-        div.appendChild(image);
-        div.appendChild(heading);
-        div.appendChild(paragraph);
     }
     if (div.contains(menu)) {
         div.removeChild(menu);
-        div.appendChild(image);
-        div.appendChild(heading);
-        div.appendChild(paragraph);
     }
+    div.appendChild(image);
+    div.appendChild(heading);
+    div.appendChild(paragraph);
 })
 
 btnMenu.addEventListener("click", () => {
